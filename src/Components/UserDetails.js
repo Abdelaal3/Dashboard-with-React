@@ -9,8 +9,6 @@ export default function UserDetails() {
         first_name: '',
         last_name: '',
         email: '',
-
-
     });
     const [loading, setLoading] = useState(true);
 

@@ -40,7 +40,6 @@ export default function SideBar({ change }) {
     }
 
 
-    const theme = useTheme();
 
     function darkTheme() {
         change()

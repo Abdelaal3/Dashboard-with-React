@@ -1,4 +1,4 @@
-import { PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
+import { PieChart, Pie, Cell, Tooltip } from 'recharts';
 import { Card, CardContent, Typography, Box, useTheme } from '@mui/material';
 import { ArrowUpward, ArrowDownward } from '@mui/icons-material';
 
