@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+#content{
+  width: 100%;
+  margin: 0 0;
+}
+
+@media (max-width: 480px) {
+  #content {
+    width: 85%;
+
+}
+}
+
+body {
+  font-family: 'Lexenda', sans-serif;
+}
+
+@font-face {
+  font-family: 'Lexenda' ;
+  src: url('/public/Fonts/LexendExa-Bold.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Lexenda' ;
+  src: url('/public/Fonts/LexendExa-SemiBold.ttf');
+  font-weight:600;
+}
+
+
+@font-face {
+  font-family: 'Lexenda' ;
+  src: url('/public/Fonts/LexendExa-Regular.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Lexenda' ;
+  src: url('/public/Fonts/LexendExa-Medium.ttf');
+  font-weight: normal;
+}
+

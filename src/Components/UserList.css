@@ -1,0 +1,68 @@
+#RightSecton{
+    display:flex; 
+    justify-content: end;
+     width: 50%;
+     align-items: center;
+     gap: 25px
+
+}
+
+#RightSecton button{
+    padding: 12px 48px;
+}
+
+
+
+
+#LeftSecton{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+
+}
+
+
+
+.containerContent{
+     display: flex;
+      justify-content:space-between;
+      padding: 20px 20px;
+      align-items: center;
+}
+
+/*Mobile*/
+
+@media (max-width: 480px) {
+
+    #RightSecton{
+        display:flex; 
+        justify-content: end;
+        width: 100%;
+        align-items: center;
+        gap: 25px
+
+
+    }
+
+    .containerContent Button{
+
+        font-size: 12px;
+        height: 45px;
+     }
+
+     .containerContent{
+
+        padding: 0px 2px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 100%;
+
+
+
+     }
+
+ 
+     
+    
+}

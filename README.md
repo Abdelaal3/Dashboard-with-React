@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+echo "# React Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek and responsive **User Management Dashboard** built with React, offering both dark and light themes, real-time alerts, user authentication, and seamless API integration.
 
-## Available Scripts
+## Repository Description
 
-In the project directory, you can run:
+A modern React dashboard for managing users, showcasing state management, routing, theming, authentication, and API integration using Clerk, Reqres, Material-UI, and custom fonts.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Authentication** using **Clerk**: only registered users can access the app. Admin users have full access and control over all user data.
+- **User Management** dashboard for viewing, adding, editing, and deleting user information.
+- **State Management** using `useState`, `useContext`, and `useCallback` for efficient data handling.
+- **Routing** powered by `useRouter` for smooth navigation between views.
+- **Theming** with customizable **Dark** and **Light** modes.
+- **UI Components** from Material-UI for a consistent and accessible interface.
+- **API Integration** via Reqres for user data and other RESTful endpoints.
+- **Notifications** using Toaster for in-app alerts and feedback.
+- **Custom Font** installed and applied across the application for a unique look.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **React** (v18+)
+- **React Router**
+- **Material-UI**
+- **Reqres API**
+- **Clerk** (Authentication)
+- **React Hot Toast** (Toaster)
+- **Custom Font** (installed via CSS)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/your-username/react-dashboard.git
+   cd react-dashboard
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Run the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Folder Structure
 
-## Learn More
+```
+react-dashboard/
+├── public/                # Public assets and index.html
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── context/           # React Context providers
+│   ├── hooks/             # Custom hooks
+│   ├── pages/             # Page components and layouts
+│   ├── theme/             # Theme definitions (dark & light)
+│   ├── App.js             # App entry point
+│   └── index.js           # React DOM rendering
+└── README.md              # Project documentation
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Theming
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Themes are defined in `src/theme/`. Switch between dark and light modes using the theme toggle in the header.
 
-### Code Splitting
+## Alerts & Notifications
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In-app alerts are powered by `react-hot-toast` Toaster. Customize messages and positions in `src/components/ToastProvider.js`.
 
-### Analyzing the Bundle Size
+## Authentication
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Authentication is managed using **Clerk**. Users must sign up or log in to access the app. Admin users have extended privileges to view and manage all user data.
 
-### Making a Progressive Web App
+## API Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+User data is fetched from the [Reqres API](https://reqres.in/) using the Fetch API and handled with `useCallback` and `useEffect`.
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
+" >> README.md
