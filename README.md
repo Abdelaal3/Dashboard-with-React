@@ -1,5 +1,3 @@
-echo "# React Dashboard
-
 A sleek and responsive **User Management Dashboard** built with React, offering both dark and light themes, real-time alerts, user authentication, and seamless API integration.
 
 ## Repository Description
