@@ -100,7 +100,7 @@ function App() {
               <h1>User Management System</h1>
 
               <h2>Sign In</h2>
-              <Link to="https://deciding-bluejay-90.accounts.dev/sign-in">
+              <Link to="https://deciding-bluejay-90.accounts.dev/sign-in?__clerk_db_jwt=dvb_2xc7RBkjwzbi4Hhjsao3izXlbgm">
                 <Button variant="contained"> Sign in </Button>
               </Link>
 
