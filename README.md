@@ -1,3 +1,8 @@
+## To Login Dashboard
+
+- **Email**: test@gmail.com
+- **Passwordr**: ABQ123456a789
+
 A sleek and responsive **User Management Dashboard** built with React, offering both dark and light themes, real-time alerts, user authentication, and seamless API integration.
 
 ## Repository Description
