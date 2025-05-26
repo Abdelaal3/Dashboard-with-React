@@ -61,7 +61,7 @@ function App() {
   const [darktheme2, setDarkTheme] = useState(theme);
   const [mode, setMode] = useState("normal");
 
-  const { isSignedIn } = useUser();
+  const { isSignedIn, user } = useUser();
 
   useEffect(() => {
     setMode(darktheme2 === darkTheme ? "darkMood" : "normal");
@@ -100,7 +100,7 @@ function App() {
               <h1>User Management System</h1>
 
               <h2>Sign In</h2>
-              <Link to="/sign-in">
+              <Link to="https://deciding-bluejay-90.accounts.dev/sign-in">
                 <Button variant="contained"> Sign in </Button>
               </Link>
 
@@ -165,8 +165,6 @@ function App() {
                   path="/sign-up"
                   element={<SignUp routing="path" path="/sign-up" />}
                 />
-
-                {/* زوّد الصفحات اللي تحبها هنا */}
               </Routes>
             </div>
             {/* === Content === */}
