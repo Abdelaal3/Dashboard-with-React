@@ -1,11 +1,10 @@
 <<<<<<< HEAD
 ## To Login Dashboard
 
+- **Link**: https://dashbordi.netlify.app/
 - **Email**: test@gmail.com
 - **Passwordr**: ABQ123456a789
 =======
-The email to login to dashboard: test@gmail.com
-The Password to login to dashboard: ABQ123456a789
 
 >>>>>>> bc7b625d9904e32735fcd8e264ed5be80ac44b5f
 
