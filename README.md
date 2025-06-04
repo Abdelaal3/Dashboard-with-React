@@ -41,7 +41,7 @@ A modern React dashboard for managing users, showcasing state management, routin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-dashboard.git
+   git clone https://github.com/Abdelaal3/Dashboard-with-React.git
    cd react-dashboard
    ```
 
